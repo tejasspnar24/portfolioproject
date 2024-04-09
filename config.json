@@ -1,20 +1,21 @@
 {
   "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
+  "title": "Backend Developer",
+  "name": "Tejas Sonar",
+  "Phone" : "+91 9834943122",
   "ascii": "liveterm",
   "social": {
     "github": "github",
-    "linkedin": "linkedin"
+    "linkedin": "tejassonar-it"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
-  "ps1_username": "visitor",
+  "email": "tejassonar24@email.com",
+  "ps1_hostname": "Tejas",
+  "ps1_username": "Sonar",
   "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "resume_url": "https://drive.google.com/file/d/1HeR6Djhjk_m_1Qh7AstuBBkFHkIvPD7n/view",
+  "Instagram": "https://www.instagram.com/saraftejas24/",
   "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
+    "Instagram": "https://www.instagram.com/saraftejas24/"
   },
   "colors": {
     "light": {

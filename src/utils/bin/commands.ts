@@ -32,6 +32,9 @@ export const repo = async (args: string[]): Promise<string> => {
 export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
 Welcome to my website!
+
+Hello, I'm Tejas Sonar, a dedicated Java Backend Developer with a passion for creating high-performance server-side applications. Over the past 2 years, I've honed my skills in Java, Python, and various frameworks like Spring, Flask, and Django. My expertise lies in building and maintaining RESTful APIs and ensuring database integrity. At Tata Consultancy Services, where I currently work as a System Engineer, I've led projects such as Core Banking System projects, overseeing 40+ banking applications and implementing optimization strategies that boosted system performance by 30%. I've also played a key role in the creation and upkeep of RESTful API architecture using the Spring MVC framework. Outside of work, I've led the development of a Web-Based Machine Learning Application for Heart Disease Prediction, showcasing my leadership and problem-solving abilities. With certifications in Azure Fundamentals and Data Science, along with several awards and paper publications, I'm committed to continuous learning and excellence. I possess excellent communication skills, critical thinking abilities, and emotional intelligence, making me a valuable asset in any professional setting.
+
 More about me:
 'sumfetch' - short summary.
 'resume' - my latest resume.
@@ -44,13 +47,13 @@ export const resume = async (args: string[]): Promise<string> => {
 };
 
 // Donate
-export const donate = async (args: string[]): Promise<string> => {
-  return `thank you for your interest. 
-here are the ways you can support my work:
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.patreon}" target="_blank">patreon</a></u>
-`;
-};
+// export const donate = async (args: string[]): Promise<string> => {
+//   return `thank you for your interest. 
+// here are the ways you can support my work:
+// - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
+// - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.patreon}" target="_blank">patreon</a></u>
+// `;
+// };
 
 // Contact
 export const email = async (args: string[]): Promise<string> => {
@@ -141,15 +144,14 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Banner
 export const banner = (args?: string[]): string => {
   return `
-█████        ███                       ███████████                                   
-░░███        ░░░                       ░█░░░███░░░█                                   
- ░███        ████  █████ █████  ██████ ░   ░███  ░   ██████  ████████  █████████████  
- ░███       ░░███ ░░███ ░░███  ███░░███    ░███     ███░░███░░███░░███░░███░░███░░███ 
- ░███        ░███  ░███  ░███ ░███████     ░███    ░███████  ░███ ░░░  ░███ ░███ ░███ 
- ░███      █ ░███  ░░███ ███  ░███░░░      ░███    ░███░░░   ░███      ░███ ░███ ░███ 
- ███████████ █████  ░░█████   ░░██████     █████   ░░██████  █████     █████░███ █████
-░░░░░░░░░░░ ░░░░░    ░░░░░     ░░░░░░     ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░ ░░░░░ 
-
+  ████████╗███████╗     ██╗ █████╗ ███████╗    ███████╗ ██████╗ ███╗   ██╗ █████╗ ██████╗                             
+  ╚══██╔══╝██╔════╝     ██║██╔══██╗██╔════╝    ██╔════╝██╔═══██╗████╗  ██║██╔══██╗██╔══██╗                            
+     ██║   █████╗       ██║███████║███████╗    ███████╗██║   ██║██╔██╗ ██║███████║██████╔╝                            
+     ██║   ██╔══╝  ██   ██║██╔══██║╚════██║    ╚════██║██║   ██║██║╚██╗██║██╔══██║██╔══██╗                            
+     ██║   ███████╗╚█████╔╝██║  ██║███████║    ███████║╚██████╔╝██║ ╚████║██║  ██║██║  ██║                            
+     ╚═╝   ╚══════╝ ╚════╝ ╚═╝  ╚═╝╚══════╝    ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝                            
+                                                                                                                                                                                                                                                                                                      
+Type 'about' to Know More!
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
